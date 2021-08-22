@@ -1,7 +1,5 @@
 {
 	"compilerOptions": {
-		"outDir": "./dist" /* Redirect output structure to the directory. */,
-		"rootDir": "./src" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
 		"allowUnreachableCode": false,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitOverride": true,
@@ -20,6 +18,16 @@
 		"preserveConstEnums": true,
 		"removeComments": true,
 		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true
-	}
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react"
+	},
+	"include": ["next-env.d.ts", "./**/*.tsx", "./**/*.ts"],
+	"exclude": [
+		"dist",
+		"production-server",
+		".next",
+		"out",
+		"app/next.config.js",
+		"node_modules"
+	]
 }
