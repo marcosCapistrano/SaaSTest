@@ -11,6 +11,15 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 
-		"strict": true
+		"strict": true,
+
+		"allowUmdGlobalAccess": false,
+		"baseUrl": "./src",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"preserveConstEnums": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true
 	}
 }
