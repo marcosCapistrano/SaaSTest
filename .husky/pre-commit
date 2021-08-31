@@ -3,3 +3,7 @@
 
 cd app
 npx lint-staged
+
+cd ..
+cd api
+npx lint-staged
