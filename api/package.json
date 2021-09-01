@@ -7,12 +7,13 @@
 		"dev": "nodemon server/server.ts"
 	},
 	"devDependencies": {
+		"@types/node": "^16.7.9",
 		"@typescript-eslint/eslint-plugin": "^4.30.0",
 		"@typescript-eslint/parser": "^4.30.0",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
+		"nodemon": "^2.0.12",
 		"prettier": "^2.3.2",
-		"prisma": "^2.30.2",
 		"typescript": "^4.4.2"
 	},
 	"lint-staged": {
@@ -20,5 +21,10 @@
 			"prettier --write --ignore-unknown",
 			"eslint"
 		]
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"mongoose": "^6.0.3"
 	}
 }

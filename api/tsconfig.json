@@ -24,14 +24,5 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true
 	},
-	"include": ["next-env.d.ts", "./**/*.tsx", "./**/*.ts"],
-	"exclude": [
-		"server",
-		"dist",
-		"production-server",
-		".next",
-		"out",
-		"next.config.js",
-		"node_modules"
-	]
+	"exclude": ["production-server", "node_modules"]
 }
